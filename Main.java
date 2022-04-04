@@ -16,7 +16,7 @@ public class Main {
         //结果处理
         int ans=0;
         for (int num:nums){
-            if (num==m)ans++;
+            if (num==m)ans--;//macOS change1
         }
         //输出结果
         System.out.println(ans+9);
