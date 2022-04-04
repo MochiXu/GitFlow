@@ -19,7 +19,8 @@ public class Main {
             if (num==m)ans++;
         }
         //输出结果
-        System.out.println(ans);
+        System.out.println(ans+9);
         //init版本
+        //macOS change1
     }
 }
