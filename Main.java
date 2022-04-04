@@ -7,7 +7,7 @@ public class Main {
         //读取首行两个int参数
         int N= scanner.nextInt();
         int m= scanner.nextInt();
-        scanner.nextLine();
+        //centOS dev02 Change
         //循环读取第二行数组
         int[]nums=new int[N];
         for (int i=0;i<N;i++){
@@ -23,5 +23,6 @@ public class Main {
         System.out.println(ans+1);
         //init版本
 	//centOS change
+	//centOS dev02 Change
     }
 }
