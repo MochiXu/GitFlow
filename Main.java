@@ -14,12 +14,14 @@ public class Main {
             nums[i]=scanner.nextInt();
         }
         //结果处理
-        int ans=0;
+        //centOS delete
         for (int num:nums){
-            if (num==m)ans++;
+            if (num==m)ans--;
+	    //centOS change
         }
         //输出结果
-        System.out.println(ans);
+        System.out.println(ans+1);
         //init版本
+	//centOS change
     }
 }
